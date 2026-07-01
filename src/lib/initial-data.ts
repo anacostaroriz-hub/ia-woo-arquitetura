@@ -543,4 +543,39 @@ export const INITIAL_DATA: Area[] = [
       },
     ],
   },
+  {
+    id: uid(),
+    name: 'Pós Projeto',
+    order_index: 4,
+    phases: [
+      {
+        id: uid(),
+        name: 'Acompanhamento',
+        order_index: 0,
+        color: COLORS[1],
+        steps: [
+          {
+            id: uid(),
+            name: 'Orçamentos',
+            responsible: '',
+            estimated_time: '',
+            tools: '',
+            notes: '',
+            order_index: 0,
+            ai_points: [],
+          },
+          {
+            id: uid(),
+            name: 'WhatsApp e Dúvidas',
+            responsible: '',
+            estimated_time: '',
+            tools: '',
+            notes: '',
+            order_index: 1,
+            ai_points: [],
+          },
+        ],
+      },
+    ],
+  },
 ];
